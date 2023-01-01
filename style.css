@@ -1,0 +1,206 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+/* Landing page */
+.landing-body{
+    background-image: url("Gym_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Landing page end */
+
+ /* body */
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   
+}
+/* Login */
+.login-page .row .col-lg-6 h3{
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    word-spacing: 4px;
+}
+.login-page .row .col-lg-6 p{
+    color: white;
+}
+.login-page button:hover{
+    background-color:red;
+    color: white;
+}
+.login-div{
+    /* border: 2px solid red; */
+}
+.login-div h4{
+    color: white;
+}
+/* Login end */
+/* page header */
+.page-header{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url("bg.jpg");
+}
+/* page header end */
+/* Navbar */
+.navbar{
+    background-color:black;
+}
+
+.container-fluid.nav-bar {
+    position: absolute;
+
+}
+
+#nav-container img {
+    height: 68px;
+    border: none;
+    border-radius: 50%;
+    color: orange;
+}
+
+.navbar ul li {
+    padding: 0px 18px;
+    font-size: large;
+}
+
+.navbar ul li a {
+    color: white;
+
+}
+
+/* slider start */
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+/*slider end */
+
+/* Gym-class start */
+.Gym-class h3 {
+    font-weight: 600;
+}
+
+.Gym-class col {
+    opacity: 0.2;
+    ;
+}
+
+.Gym-class a {
+    border-radius: 0%;
+    font-weight: bold;
+
+}
+
+/* Gym-class end */
+
+/* About page */
+#About-page a:hover {
+    background-color: red;
+    color: white;
+}
+
+#About-page p {
+    font-size: 19px;
+}
+
+/* About page end */
+
+
+/* subscribe start */
+.subscribe {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+/* subscribe end */
+
+/* Time table */
+#Time-table ul li a{
+    border-radius:0%;
+    color: red;
+    
+}
+#Time-table ul li a:hover{
+    border-radius:0%;
+    color:white;
+    background-color:red;
+    
+}
+
+#Time-table table th{
+    background-color: black;
+}
+
+#tvertical-heading th{
+    background-color: black;
+}
+#Gym-team img{
+   border-radius: 0%;
+}
+/* time table end */
+
+
+/* testimonial start */
+.test-span{
+    font-size: 54px;
+    font-weight: 700;
+}
+.testimonial-row .col-lg-12{
+    display:none;
+}
+/* testimonial end */
+
+/* Blog start */
+.blog-item a{
+    border-radius:0%; 
+    border-color:red; 
+    color:red;
+}
+.blog-item a:hover{
+    background-color:red;
+    color: white;
+}
+/* Blog end */
+
+/* contact us  */
+#sendMessageButton:hover{
+    background-color: red;
+    color: white;
+}
+#contactForm input{
+    border-radius: 0%;
+    
+}
+
+
+/* contact us end */
+
+
+/* Footer start */
+.footer{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url("bg.jpg");
+}
+.footer-content a{
+    text-decoration:none;
+    font-weight:bold;
+}
+/* Footer end */
